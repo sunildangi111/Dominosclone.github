@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: rgb(242, 242, 242);
+    position: relative;
+}
+#upper{
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(9, 89, 193);
+}
+#myacc{
+  text-transform: uppercase;
+  font-style: initial;
+  position: fixed;
+  color: white;
+  font-size: 8px;
+  align-items: flex-start;
+  margin-left: 93%;
+  margin-top: 3px;
+}
+#login{
+    color: rgb(85, 204, 246);
+    font-size: 8px;
+    margin-top: -14px;
+    margin-left: 93%;
+}
+#user{
+    margin-left: 90%;
+    color: white;
+}
+#img{
+    margin-top:25px ;
+    width: 50vw;
+    height: 52vh;
+    float: right;
+}
+#img #img1{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#downimg{
+    width: 100%;
+    height: 60;
+}
+#downimg #img2{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#leftimg{
+    width: 40%;
+    height: 8vh;
+    margin-left: 37px;
+    justify-content: center;
+}
+#leftimg #lft1{
+    width: 20vw; ;
+    height: 6vh;
+}
+#box{
+     width: 15vh;
+     height: 15vh;
+     border: 4px ;
+}
+#please{
+    font-size: 1rem;
+    color: rgb(125, 123, 123);
+}
+#please2{
+    font-size: 70%;
+    color: rgb(125, 123, 123);
+}
+#Ddown{
+    margin-left: 37px;
+    padding-top: 20px;
+}
+#deli{
+    margin-top: 20px;
+    font-size:55% ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;  
+    color:rgb(0, 102, 163) ;
+    font-weight: 600; 
+}
+#text{
+    margin-top: 20px;
+    margin-left: 2.2%;
+    width: 36%;
+    height: 12%;
+   
+}
+#Enter{
+    color: rgb(5, 188, 191);
+    z-index: 20px;;
+   width: 100%;
+   height: 4vh;
+   font-size: 0.6rem;
+   margin-left: 5px;
+   padding-top: 14px;
+   padding-left: 12px;
+   border-radius: 3px;
+   background-color: white;
+   border: 0.5px solid rgb(5, 188, 191);
+   
+   z-index: 20px;
+   cursor: text;
+}
+#locate{
+    height:3.5vh ;
+    border-radius: 3px;
+    width: 15vh;
+    color:rgb(255, 255, 255) ;
+    background-color: rgb(0, 171, 0);
+    padding-left: 16px;
+    padding-top: 7px;
+    font-weight: 700;
+    font-size: 80%;
+    /* margin-right: 55px; */
+    margin-top: -36px;
+    margin-right: -12px;
+    z-index: 30px;
+    float: right;
+}
+#text #locate{
+    margin-left: 100%;
+    float: right;
+    cursor: pointer;
+}
+#loc{
+    margin-left: -9px;
+}
+#scooter{
+    width: 104vh;
+    height: 23vh;
+    margin-top: 4vh;
+    margin-left: -6vh;
+}
+#scooter1{
+    width: 100%;
+    height: 100%;
+}
+#lowerimg{
+    /* margin-top: 35vh; */
+    margin-left: 29px;
+    width: 23vh;
+    height: 13vh;
+}
+#lowerimg #img3{
+    width: 100%;
+    height: 100%; 
+    cursor: pointer;
+}
+#offer{
+   width: 100px;
+   height: 4vh;
+   font-weight: bold;
+   opacity: 59%;
+   color: rgb(31, 97, 189);
+   margin-top: 2vh;
+   margin-left: 5vh;
+}
+#chat{
+    width: 10vh;
+    height: 10vh;
+    margin-top: -5vh;
+    margin-right: 5vh;
+    float: right;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+#chat #chat1{
+    height: 100%;
+    width: 100%;
+
+}
+#foot{
+    margin-left: -38px;
+    width:78.8rem;
+    height: 20vh;
+    margin-top: 8vh;
+    background-color: rgb(34, 46, 58);
+}
+#footerimg{
+    width: 34vh;
+    height: 6vh;
+    margin-left: 4%;
+   
+}
+#footerimg #img4{
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+.box {
+    margin-left: 10vh;
+    margin-top: 8vh;
+    justify-content: space-between ;
+}
+#lowerline{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    justify-content: left ;
+    width: 40rem;
+    height: 9px;
+   
+    color: rgb(131, 154, 177);
+    font-size: 0.8rem;
+}
+#lowerline2{
+    margin-left: 5vh;
+}
+#lowerline3{
+    margin-left: 5vh;
+}
+#lowerline4{
+    margin-left: 5vh;
+}
+#lowerline5{
+    margin-left: 5vh;
+}
+#lowerline6{
+    margin-left: 5vh;
+}
+#lowerline7{
+    margin-top: -11vh;
+    margin-left: 148vh;
+    font-size: 0.9rem;
+    color: rgb(131, 154, 177);
+}
+#playstore{
+    margin-top: 3vh;
+    width: 17vh;
+    height: 5vh;
+    margin-left: 148vh;
+}
+#play{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#applestore{
+    margin-top: -5.2vh;
+    width: 17vh;
+    height: 5vh;
+    margin-left: 170vh;
+}
+#apple{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#lowerpatti{
+    margin-left: -7vh;
+    width: 78.8rem;
+    height: 7vh;
+    background-color: rgb(20, 39, 53);
+    border-top:  0.1px solid whitesmoke;
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 3vh;
+}
+#rights{
+    font-size: 0.7rem;
+    margin-top: 1.9vh;
+    margin-left: 85vh;
+    color: rgb(92, 111, 131);
+}
