@@ -8,7 +8,7 @@ body{
 }
 #upper{
     position: fixed;
-    width: 78.8rem;
+    width: 212.4vb;
     height: 25px;
     background-color: rgb(9, 89, 193);
 }
@@ -181,7 +181,7 @@ body{
 }
 #foot{
     margin-left: -38px;
-    width:78.8rem;
+    width:214vb;
     height: 20vh;
     margin-top: 8vh;
     background-color: rgb(34, 46, 58);
@@ -258,7 +258,7 @@ body{
 }
 #lowerpatti{
     margin-left: -7vh;
-    width: 78.8rem;
+    width: 214.4vb;
     height: 7vh;
     background-color: rgb(20, 39, 53);
     border-top:  0.1px solid whitesmoke;
